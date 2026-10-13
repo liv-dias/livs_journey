@@ -1,0 +1,20 @@
+:root {
+  --color-bg: #120458;
+  --color-title: #ff124f;
+  --color-text: #ffffff;
+  --font-title: 'Irish Grover', cursive;
+  --font-body: 'Irish Grover', cursive;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+}
